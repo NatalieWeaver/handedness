@@ -6,18 +6,23 @@ Do left-handed people experience less left-right confusion than right-handed peo
 
 ## Hypothesis
 
-Null hypothesis: left-right confusion and handedness are independent (i.e. lefties and rightes have the same probability of experiencing left-right confusion)
+**Null hypothesis**: left-right confusion and handedness are independent (i.e. lefties and rightes have the same probability of experiencing left-right confusion)
 
-Alternative hypothesis: left-right confusion and handedness are not independent. More specifically, left-handed people experience less left-right confusion because they frequently have to deal with things designed for right-handed people such as scissors, spiral notebooks, and school desks.
+**Alternative hypothesis**: left-right confusion and handedness are not independent. More specifically, left-handed people experience less left-right confusion because they frequently have to deal with things designed for right-handed people such as scissors, spiral notebooks, and school desks.
 
 ## Method
 
 1. Poll instagram followers on whether they experience left-right confusion and their handedness. Specifically, I asked the following questions on 2022-08-23:
-    - Do you struggle to tell left from right? [Yes/No]
-    - Are you left-handed or right-handed? [Left-handed/Right-handed/Ambidextrous??!]
+    - Do you struggle to tell left from right?
+        - Yes
+        - No
+    - Are you left-handed or right-handed?
+        - Left-handed
+        - Right-handed
+        - Ambidextrous??!
 2. Clean the data by joining the results of the two polls by respondents' usernames, and keeping only respondents who answered both polls and were left- or right-handed (not ambidextrous)
 3. Perform a Pearson's chi-squared test for statistical independence to test whether the observed contingency table was significantly different from the expected contingency table under the null hypothesis. Reject the null if and only if the p-value is small (< 0.05 by convention). I did this analysis in both R and Google Sheets.
-    - Link to R script: github.com/NatalieWeaver/handedness/left_right_confusion.R
+    - Link to R script: https://github.com/NatalieWeaver/handedness/blob/main/right_left_confusion.R
     - Link to Google Sheets: https://docs.google.com/spreadsheets/d/1IcrQzTblnN7eJNUcLz7tJdbn7gb59pH5OMblraBJocc/edit#gid=645253841
 
 ## Results
