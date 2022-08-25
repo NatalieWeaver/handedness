@@ -39,7 +39,7 @@ expected|left|right
 0|4.11|46.89
 1|1.89|21.11
 
-The observed table looks very similar to the expected table, and the p-value quantifies this similarity.
+The observed table looks very similar to the expected table, and the p-value quantifies this similarity. Specifically, _p_ = 0.92 means that if you ran this experiment infinitely many times in a universe where the null hypothesis was actually true, then in 92% of those experiments you would expect to get observations that were even more extreme (i.e. different from the expected values) than the observations we got in this experiment.
 
 ## Acknowledgements
 
