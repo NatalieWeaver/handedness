@@ -27,7 +27,7 @@ Do left-handed people experience less left-right confusion than right-handed peo
 
 ## Results
 
-The p-value was 0.92, much larger than 0.05, so we fail to reject the null hypothesis. The data do not show that left-handed people experience less left-right confusion than right-handed people. The observed and expected (under the null) contingency tables are as follows, with handedness across the top and an indicator for experiencing left-right confusion down the side
+The p-value was 0.92, much larger than 0.05, so we fail to reject the null hypothesis. The data do not show that left-handed people experience less left-right confusion than right-handed people. The observed and expected (under the null) contingency tables are as follows, with handedness across the top and an indicator for experiencing left-right confusion down the side:
 
 observed|left|right
 ---|---|---
